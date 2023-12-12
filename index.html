@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <form id="box">
+            <input type="color" id="choose-color">
+            <select name="colors-mode" id="mode">
+                <option value="monochrome">monochrome</option>
+                <option value="monochrome-dark">monochrome-dark</option>
+                <option value="monochrome-light">monochrome-light</option>
+                <option value="analogic">analogic</option>
+                <option value="triad">triad</option>
+                <option value="quad">quad</option>
+            </select>
+            
+                <label for="colorCount">Select color count:</label>
+                <input type="range" name="colorCount" id="colorCount" max="10" placeholder="enter color count">
+        
+            <button type="submit" id="btn" onclick="GenerateSchema(event)">Genarate</button>
+            <span id="loading">Fetching Data...</span>
+            </form>
+        </header>
+        
+        <main id="schema-color-sec">
+            
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- https://www.thecolorapi.com/
+https://www.thecolorapi.com/docs#colors-color-identification-get -->

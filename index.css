@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box{
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    justify-content:center;
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+#choose-color,button,#mode,#colorCount{
+    width: 25%;
+    margin: 20px;
+}
+
+#mode,#colorCount{
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+input[type="color"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background: greenyellow;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#loading{
+    display: none;
+}
+#loading.active{
+    display: inline-block;
+}
+
+#schema-color-sec{
+    margin-top: 60px; 
+
+}
+
+#schema-color-sec img{
+    width: 25%;
+   cursor: pointer;
+}
