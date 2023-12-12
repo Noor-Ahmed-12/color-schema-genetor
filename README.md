@@ -9,7 +9,6 @@ The Color Schema Generator is a powerful tool for creating harmonious color sche
 - **Color Harmony:** Create color schemes based on various harmony rules such as complementary, split-complementary, triadic, tetradic, and more.
 - **Customization:** Fine-tune your color schemes by adjusting the hue, saturation, and brightness of individual colors.
 - **Randomize:** Stuck in a creative block? Let the generator inspire you by creating random color schemes with a single click.
-- **Export:** Download your color schemes in popular formats like HEX, RGB, and HSL for seamless integration into your design workflow.
 
 ## Getting Started
 
