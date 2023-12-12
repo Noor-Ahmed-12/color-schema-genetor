@@ -51,3 +51,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to customize this README to better fit your project and provide any additional information that users might find helpful.
+
+## Live Preview
+https://color-schema-genetor.vercel.app/
